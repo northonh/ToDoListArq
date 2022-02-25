@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.TarefaFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/nomeTarefaEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome da tarefa" />
+
+        <CheckBox
+            android:id="@+id/realizadaTarefaCb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Realizada" />
+
+        <Button
+            android:id="@+id/salvarTarefaBt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar tarefa" />
+    </LinearLayout>
+</FrameLayout>
